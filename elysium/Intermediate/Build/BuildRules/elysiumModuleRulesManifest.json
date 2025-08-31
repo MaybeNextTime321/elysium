@@ -1,6 +1,8 @@
 {
 	"SourceFiles": [
 		"G:\\projects\\elysium\\elysium\\Source\\elysium\\elysium.Build.cs",
+		"G:\\projects\\elysium\\elysium\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\VisualStudioBlueprintDebuggerHelper.Build.cs",
+		"G:\\projects\\elysium\\elysium\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\VisualStudioTools.Build.cs",
 		"G:\\projects\\elysium\\elysium\\Source\\elysium.Target.cs",
 		"G:\\projects\\elysium\\elysium\\Source\\elysiumEditor.Target.cs"
 	],
