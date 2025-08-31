@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\elysium.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\elysium.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\elysiumEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\elysium">
+      <UniqueIdentifier>{AB326E41-873D-3900-9392-C1BFC5956687}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\elysium\elysium.Build.cs">
+      <Filter>Source\elysium</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\elysium\elysium.cpp">
+      <Filter>Source\elysium</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\elysium.h">
+      <Filter>Source\elysium</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\elysiumCharacter.cpp">
+      <Filter>Source\elysium</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\elysiumCharacter.h">
+      <Filter>Source\elysium</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\elysiumGameMode.cpp">
+      <Filter>Source\elysium</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\elysiumGameMode.h">
+      <Filter>Source\elysium</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\elysiumPlayerController.cpp">
+      <Filter>Source\elysium</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\elysiumPlayerController.h">
+      <Filter>Source\elysium</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_Combat">
+      <UniqueIdentifier>{9BD717E8-215D-3138-9E18-9D613A7E7F06}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\elysium\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\elysium\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\elysium\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\elysium\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\elysium\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\elysium\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_Combat\AI">
+      <UniqueIdentifier>{839849D4-06B8-3BD7-BDF2-58F8AF44FA2B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\elysium\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\elysium\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\elysium\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\elysium\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\elysium\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\elysium\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\elysium\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\elysium\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\elysium\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\elysium\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_Combat\Animation">
+      <UniqueIdentifier>{1EAB6D58-5849-3014-B2BA-C8A5137C8958}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\elysium\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\elysium\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\elysium\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\elysium\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\elysium\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\elysium\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{CAE13D64-D48C-3AA8-A314-120B1EDDD510}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\elysium\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\elysium\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\elysium\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\elysium\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\elysium\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\elysium\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\elysium\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\elysium\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\elysium\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\elysium\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{56F07F51-9C91-32E2-8983-A2CF67EDE02F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\elysium\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\elysium\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\elysium\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\elysium\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\elysium\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\elysium\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_Combat\UI">
+      <UniqueIdentifier>{6AF01FE7-1832-3B6B-9215-369B3B25B59E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\elysium\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\elysium\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_Platforming">
+      <UniqueIdentifier>{54A9154F-4FA5-3DC9-9B68-EBF89A21DA27}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\elysium\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\elysium\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\elysium\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\elysium\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\elysium\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\elysium\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_Platforming\Animation">
+      <UniqueIdentifier>{3CAECBC3-40AB-3136-BC84-3B65FA08FC6A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\elysium\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\elysium\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_SideScrolling">
+      <UniqueIdentifier>{6E8C0079-1FFF-30CF-807B-5F5739D9D4C0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\elysium\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\elysium\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\elysium\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\elysium\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{B5341A2A-FFEA-3E84-B1FB-ACE790CA303D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\elysium\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\elysium\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\elysium\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{BD370458-0947-3854-A04D-DF6BADAAB022}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\elysium\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\elysium\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\elysium\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\elysium\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{7892B5BC-52AA-336A-ADB7-160142582ED4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\elysium\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\elysium\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{6238CC48-02E7-37B0-B681-E89E95803C6C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\elysium\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\elysium\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\elysium\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\elysium\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

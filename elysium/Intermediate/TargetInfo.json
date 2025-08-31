@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "elysium",
+			"Path": "..\\Source\\elysium.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "elysiumEditor",
+			"Path": "..\\Source\\elysiumEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

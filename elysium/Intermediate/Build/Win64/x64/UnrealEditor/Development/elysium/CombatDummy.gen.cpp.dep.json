@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\projects\\elysium\\elysium\\intermediate\\build\\win64\\unrealeditor\\inc\\elysium\\uht\\combatdummy.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\projects\\elysium\\elysium\\intermediate\\build\\win64\\x64\\elysiumeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\projects\\elysium\\elysium\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\elysium\\definitions.elysium.h",
+            "g:\\projects\\elysium\\elysium\\source\\elysium\\variant_combat\\gameplay\\combatdummy.h",
+            "g:\\projects\\elysium\\elysium\\source\\elysium\\variant_combat\\interfaces\\combatdamageable.h",
+            "g:\\projects\\elysium\\elysium\\intermediate\\build\\win64\\unrealeditor\\inc\\elysium\\uht\\combatdamageable.generated.h",
+            "g:\\projects\\elysium\\elysium\\intermediate\\build\\win64\\unrealeditor\\inc\\elysium\\uht\\combatdummy.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

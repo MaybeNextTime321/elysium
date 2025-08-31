@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"G:\\projects\\elysium\\elysium\\Source\\elysium\\elysium.Build.cs",
+		"G:\\projects\\elysium\\elysium\\Source\\elysium.Target.cs",
+		"G:\\projects\\elysium\\elysium\\Source\\elysiumEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}

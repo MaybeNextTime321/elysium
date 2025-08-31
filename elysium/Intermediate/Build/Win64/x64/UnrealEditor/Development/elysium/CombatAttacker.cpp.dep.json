@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\projects\\elysium\\elysium\\source\\elysium\\variant_combat\\interfaces\\combatattacker.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\projects\\elysium\\elysium\\intermediate\\build\\win64\\x64\\elysiumeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "g:\\projects\\elysium\\elysium\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\elysium\\definitions.elysium.h",
+            "g:\\projects\\elysium\\elysium\\source\\elysium\\variant_combat\\interfaces\\combatattacker.h",
+            "g:\\projects\\elysium\\elysium\\intermediate\\build\\win64\\unrealeditor\\inc\\elysium\\uht\\combatattacker.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
